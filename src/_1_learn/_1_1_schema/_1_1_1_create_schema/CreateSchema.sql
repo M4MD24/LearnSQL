@@ -1,0 +1,1 @@
+CREATE SCHEMA learn_sql

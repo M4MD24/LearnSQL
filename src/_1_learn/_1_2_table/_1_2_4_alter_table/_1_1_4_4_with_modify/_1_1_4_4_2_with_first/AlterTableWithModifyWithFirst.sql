@@ -1,0 +1,3 @@
+ALTER TABLE users
+    MODIFY COLUMN ID INT
+        FIRST;

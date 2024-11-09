@@ -1,0 +1,15 @@
+SELECT *
+FROM users
+WHERE AGE LIKE '2%';
+
+SELECT *
+FROM users
+WHERE AGE LIKE '%2';
+
+SELECT *
+FROM users
+WHERE FIRST_NAME LIKE '____';
+
+SELECT *
+FROM users
+WHERE SECOND_NAME LIKE '_b%'

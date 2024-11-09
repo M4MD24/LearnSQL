@@ -1,0 +1,2 @@
+SELECT BIRTH_DAY AS "BIRTH"
+FROM users;

@@ -1,0 +1,2 @@
+SELECT DISTINCT AGE
+FROM users;

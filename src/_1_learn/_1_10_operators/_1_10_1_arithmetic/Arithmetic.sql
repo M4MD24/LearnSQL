@@ -1,0 +1,4 @@
+SELECT 5 + 5;
+SELECT 5 - 5;
+SELECT 5 * 5;
+SELECT 5 / 5;

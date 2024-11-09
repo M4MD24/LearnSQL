@@ -1,0 +1,1 @@
+RENAME TABLE normal_users TO USERS;

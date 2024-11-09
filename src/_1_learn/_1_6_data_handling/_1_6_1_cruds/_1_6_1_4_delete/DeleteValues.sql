@@ -1,0 +1,3 @@
+DELETE
+FROM users
+WHERE ID = 3

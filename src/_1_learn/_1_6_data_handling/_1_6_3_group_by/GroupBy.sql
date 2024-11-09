@@ -1,0 +1,3 @@
+SELECT AGE
+FROM users
+GROUP BY AGE
