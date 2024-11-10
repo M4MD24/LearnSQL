@@ -1,0 +1,9 @@
+DELIMITER //
+
+CREATE PROCEDURE displayAllUsers()
+BEGIN
+    SELECT *
+    FROM users;
+END //
+
+DELIMITER ;

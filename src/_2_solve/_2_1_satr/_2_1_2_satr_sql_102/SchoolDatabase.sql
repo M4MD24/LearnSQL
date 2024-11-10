@@ -1,6 +1,6 @@
 CREATE SCHEMA IF NOT EXISTS solve_sql;
 
-CREATE TABLE _2_2_satr_sql_102_students
+CREATE TABLE _2_1_2_satr_sql_102_students
 (
     ID             INT PRIMARY KEY,
     FIRST_NAME     VARCHAR(100),
@@ -11,7 +11,7 @@ CREATE TABLE _2_2_satr_sql_102_students
     LEVEL          SMALLINT,
     GPA            DOUBLE(5, 2)
 );
-INSERT INTO _2_2_satr_sql_102_students
+INSERT INTO _2_1_2_satr_sql_102_students
 VALUES (1, 'Ali', 'Ahmad', 'M', 20, 'علمي', 3, 87),
        (2, 'Sara', 'Hasan', 'F', 13, 'انساني', 1, 92),
        (3, 'Omar', 'Khalid', 'M', 14, 'علمي', 4, 75),
@@ -45,12 +45,12 @@ VALUES (1, 'Ali', 'Ahmad', 'M', 20, 'علمي', 3, 87),
        (31, 'Bilal', 'Saeed', 'M', 17, 'علمي', 5, 76),
        (32, 'Jana', 'Karim', 'F', 12, 'علمي', 1, 95);
 
-CREATE TABLE _2_2_satr_sql_102_subjects
+CREATE TABLE _2_1_2_satr_sql_102_subjects
 (
     ID   INT PRIMARY KEY,
     NAME VARCHAR(100)
 );
-INSERT INTO _2_2_satr_sql_102_subjects
+INSERT INTO _2_1_2_satr_sql_102_subjects
 VALUES (1, 'Islamic Religion'),
        (2, 'Arabic Language'),
        (3, 'Science'),
@@ -58,64 +58,64 @@ VALUES (1, 'Islamic Religion'),
        (5, 'English Language'),
        (6, 'Mathematics');
 
-CREATE TABLE _2_2_satr_sql_102_outstanding_students
+CREATE TABLE _2_1_2_satr_sql_102_outstanding_students
 SELECT *
-FROM _2_2_satr_sql_102_students
+FROM _2_1_2_satr_sql_102_students
 WHERE GPA > 90;
 
-CREATE TABLE _2_2_satr_sql_102_not_pass_students
+CREATE TABLE _2_1_2_satr_sql_102_not_pass_students
 SELECT *
-FROM _2_2_satr_sql_102_students
+FROM _2_1_2_satr_sql_102_students
 WHERE GPA < 60;
 
 SELECT *
-FROM _2_2_satr_sql_102_students
+FROM _2_1_2_satr_sql_102_students
 WHERE FIRST_NAME LIKE 'A%';
 
 SELECT *
-FROM _2_2_satr_sql_102_students
+FROM _2_1_2_satr_sql_102_students
 WHERE FIRST_NAME LIKE '____';
 
 SELECT AVG(GPA) AS "Average GPA"
-FROM _2_2_satr_sql_102_students;
+FROM _2_1_2_satr_sql_102_students;
 SELECT MAX(GPA) AS "Maximum GPA"
-FROM _2_2_satr_sql_102_students;
+FROM _2_1_2_satr_sql_102_students;
 SELECT MIN(GPA) AS "Minimum GPA"
-FROM _2_2_satr_sql_102_students;
+FROM _2_1_2_satr_sql_102_students;
 
 SELECT *
-FROM _2_2_satr_sql_102_outstanding_students
+FROM _2_1_2_satr_sql_102_outstanding_students
 WHERE GPA = 100;
 
 SELECT *
-FROM _2_2_satr_sql_102_students
+FROM _2_1_2_satr_sql_102_students
 WHERE LEVEL = 1
   AND AGE BETWEEN 15 AND 16;
 
 SELECT *
-FROM _2_2_satr_sql_102_students
+FROM _2_1_2_satr_sql_102_students
 WHERE LEVEL = 2;
 
 SELECT DISTINCT SPECIALIZATION
-FROM _2_2_satr_sql_102_students;
+FROM _2_1_2_satr_sql_102_students;
 
 SELECT UPPER(NAME)
-FROM _2_2_satr_sql_102_subjects;
+FROM _2_1_2_satr_sql_102_subjects;
 
 SELECT FORMAT(AVG(GPA), 2)
-FROM _2_2_satr_sql_102_students;
+FROM _2_1_2_satr_sql_102_students;
 
-ALTER TABLE _2_2_satr_sql_102_students
+ALTER TABLE _2_1_2_satr_sql_102_students
     MODIFY GENDER VARCHAR(6);
-UPDATE _2_2_satr_sql_102_students
+UPDATE _2_1_2_satr_sql_102_students
 SET GENDER = CASE
                  WHEN GENDER = 'F' THEN 'Female'
                  WHEN GENDER = 'M' THEN 'Male'
     END;
 
-UPDATE _2_2_satr_sql_102_not_pass_students
+UPDATE _2_1_2_satr_sql_102_not_pass_students
 SET GPA = GPA + 5
 WHERE GPA < 60;
 DELETE
-FROM _2_2_satr_sql_102_not_pass_students
+FROM _2_1_2_satr_sql_102_not_pass_students
 WHERE GPA >= 60;

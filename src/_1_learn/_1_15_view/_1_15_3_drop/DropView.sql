@@ -1,0 +1,1 @@
+DROP VIEW users_jobs_view;

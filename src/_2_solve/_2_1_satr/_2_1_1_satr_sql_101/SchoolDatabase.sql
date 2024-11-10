@@ -2,7 +2,7 @@
 CREATE SCHEMA IF NOT EXISTS solve_sql;
 
 -- إنشاء جدول للطلبة وتفاصيلهم
-CREATE TABLE _2_1_satr_sql_101_students
+CREATE TABLE _2_1_1_satr_sql_101_students
 (
     ID              INT PRIMARY KEY,
     FULL_NAME       VARCHAR(100),
@@ -16,7 +16,7 @@ CREATE TABLE _2_1_satr_sql_101_students
 );
 
 -- إنشاء بيانات الطلبة
-INSERT INTO _2_1_satr_sql_101_students
+INSERT INTO _2_1_1_satr_sql_101_students
 VALUES (1, 'Ali Ahmad', '2001-05-12', 'M', '2020-09-15', 'ali.ahmad@example.com', 3, 'علمي', 87),
        (2, 'Sara Hasan', '2002-08-23', 'F', '2021-01-10', 'sara.hasan@example.com', 1, 'انساني', 92),
        (3, 'Omar Khalid', '2000-11-03', 'M', '2020-02-05', 'omar.khalid@example.com', 4, 'علمي', 75),
@@ -49,7 +49,7 @@ VALUES (1, 'Ali Ahmad', '2001-05-12', 'M', '2020-09-15', 'ali.ahmad@example.com'
        (30, 'Jana Karim', '2003-07-21', 'F', '2022-01-20', 'jana.karim@example.com', 1, 'انساني', 95);
 
 -- إنشاء جدول للمعلمين وتفاصيلهم
-CREATE TABLE _2_1_satr_sql_101_teachers
+CREATE TABLE _2_1_1_satr_sql_101_teachers
 (
     ID            INT PRIMARY KEY,
     FULL_NAME     VARCHAR(100),
@@ -60,7 +60,7 @@ CREATE TABLE _2_1_satr_sql_101_teachers
 );
 
 -- إنشاء بيانات المعلمين
-INSERT INTO _2_1_satr_sql_101_teachers
+INSERT INTO _2_1_1_satr_sql_101_teachers
 VALUES (1, 'Dr. Ahmad Nasser', '1980-04-15', 'M', 'ahmad.nasser@example.com', '101'),
        (2, 'Ms. Sara Al-Hassan', '1975-11-25', 'F', 'sara.hassan@example.com', '102'),
        (3, 'Mr. Khalid Tarek', '1983-02-10', 'M', 'khalid.tarek@example.com', '103'),
@@ -73,14 +73,14 @@ VALUES (1, 'Dr. Ahmad Nasser', '1980-04-15', 'M', 'ahmad.nasser@example.com', '1
        (10, 'Mr. Bilal Saeed', '1977-09-14', 'M', 'bilal.saeed@example.com', '110');
 
 -- إنشاء جدول المواد وتفاصيلهم
-CREATE TABLE _2_1_satr_sql_101_subjects
+CREATE TABLE _2_1_1_satr_sql_101_subjects
 (
     ID        INT PRIMARY KEY,
     FULL_NAME VARCHAR(100)
 );
 
 -- إنشاء بيانات المواد
-INSERT INTO _2_1_satr_sql_101_subjects
+INSERT INTO _2_1_1_satr_sql_101_subjects
 VALUES (1, 'دين الإسلام'),
        (2, 'لغة عربية'),
        (3, 'علوم'),
@@ -93,34 +93,34 @@ SHOW TABLES;
 
 -- عرض جدول الطلبة
 SELECT *
-FROM _2_1_satr_sql_101_students;
+FROM _2_1_1_satr_sql_101_students;
 
 -- عرض جدول المعلمين
 SELECT *
-FROM _2_1_satr_sql_101_teachers;
+FROM _2_1_1_satr_sql_101_teachers;
 
 -- عرض جدول المواد
 SELECT *
-FROM _2_1_satr_sql_101_subjects;
+FROM _2_1_1_satr_sql_101_subjects;
 
 -- عرض عمود جدول الأعضاء، والترتيب حسب الأسماء ترتيباً تصاعدياً
 SELECT *
-FROM _2_1_satr_sql_101_students
+FROM _2_1_1_satr_sql_101_students
 ORDER BY FULL_NAME;
 
 -- عرض الطلاب مع إعطاء اسم مستعار لحقل "FULL_NAME"
 SELECT FULL_NAME AS "NAME"
-FROM _2_1_satr_sql_101_students;
+FROM _2_1_1_satr_sql_101_students;
 
 -- تعديل البريد الإلكتروني لأحد الطلاب
-UPDATE _2_1_satr_sql_101_students
+UPDATE _2_1_1_satr_sql_101_students
 SET EMAIL = 'ahmad.nasser.new@example.com'
 WHERE ID = 1;
 
 -- تعديل رقم المكتب لأحد المعلمين
-UPDATE _2_1_satr_sql_101_teachers
+UPDATE _2_1_1_satr_sql_101_teachers
 SET OFFICE_NUMBER = '202'
 WHERE ID = 1;
 
 -- تعديل اسم جدول الطلاب إلى "Pupils"
-RENAME TABLE _2_1_satr_sql_101_students TO _2_1_satr_sql_101_pupiles;
+RENAME TABLE _2_1_1_satr_sql_101_students TO _2_1_1_satr_sql_101_pupiles;

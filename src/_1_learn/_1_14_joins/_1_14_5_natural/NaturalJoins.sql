@@ -1,0 +1,3 @@
+SELECT FIRST_NAME, SECOND_NAME
+FROM users
+         NATURAL JOIN copy_of_users

@@ -1,0 +1,3 @@
+CREATE VIEW users_jobs_view AS
+SELECT ID, FIRST_NAME, JOB
+FROM users

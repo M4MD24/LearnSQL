@@ -54,6 +54,34 @@
         1. Numeric
         2. String
 
+12. Foreign Key
+
+13. Relations
+    1. One to One
+    2. One to Many
+    3. Many to Many
+
+14. Joins
+    1. Inner
+    2. Left Outer
+    3. Right Outer
+    4. Cross
+    5. Natural
+
+15. View
+    1. Create
+    2. Read
+    3. Drop
+
+16. Index
+    1. Create
+    2. Read
+    3. Drop
+
+17. Procedures
+    1. Create
+    2. Call
+
 ---
 
 # Solve
@@ -61,13 +89,21 @@
 1. Satr (1 Mini Projects)
     1. SQL 101
     2. SQL 102
-    3. ~~SQL 103~~
 
 ---
 
 # Resources
 
-## Websites
+## Learn
+
+### Websites
 
 - [Youtube](https://youotube.com)
 - [Satr](https://satr.codes)
+
+## Solve
+
+### Websites
+
+- [Satr](https://satr.codes)
+- [LeetCode](https://leetcode.com)

@@ -1,0 +1,1 @@
+DROP INDEX user_indexes ON users;
