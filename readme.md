@@ -82,6 +82,10 @@
     1. Create
     2. Call
 
+18. Truncate
+
+[//]: # (18. GUID &#40;Globally Unique Identifier&#41;)
+
 ---
 
 # Solve
@@ -89,6 +93,8 @@
 1. Satr (2 Mini Projects)
     1. SQL 101
     2. SQL 102
+
+2. LeetCode (5 Problems)
 
 ---
 
