@@ -86,7 +86,7 @@
 
 # Solve
 
-1. Satr (1 Mini Projects)
+1. Satr (2 Mini Projects)
     1. SQL 101
     2. SQL 102
 
