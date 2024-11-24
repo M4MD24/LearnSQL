@@ -1,0 +1,1 @@
+SELECT NULLIF(true, true);

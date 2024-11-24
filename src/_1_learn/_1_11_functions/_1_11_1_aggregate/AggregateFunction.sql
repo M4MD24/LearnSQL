@@ -12,4 +12,4 @@ FROM users
 WHERE AGE > 30;
 
 SELECT COUNT(AGE)
-FROM users
+FROM users;

@@ -1,0 +1,1 @@
+SELECT IF(true, 'yes', 'no');

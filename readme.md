@@ -84,7 +84,13 @@
 
 18. Truncate
 
-[//]: # (18. GUID &#40;Globally Unique Identifier&#41;)
+19. UUID (Universally Unique Identifier) & GUID (Globally Unique Identifier)
+
+20. Having
+
+21. If
+
+22. With
 
 ---
 
@@ -94,7 +100,7 @@
     1. SQL 101
     2. SQL 102
 
-2. LeetCode (5 Problems)
+2. LeetCode (18 Problems)
 
 ---
 
@@ -106,6 +112,7 @@
 
 - [Youtube](https://youotube.com)
 - [Satr](https://satr.codes)
+- ~~[Programiz](https://www.programiz.com)~~
 
 ## Solve
 

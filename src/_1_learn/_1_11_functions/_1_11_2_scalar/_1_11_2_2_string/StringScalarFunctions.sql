@@ -3,3 +3,4 @@ SELECT LOWER('Mohamed');
 SELECT UPPER('Mohamed');
 SELECT CONCAT('Mohamed', ' ', 'Sadawy');
 SELECT CHAR_LENGTH('Hello'); /*Or CHARACTER_LENGTH('')*/
+SELECT COALESCE(NULL, NULL, 'Hello', 'SQL');
