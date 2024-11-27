@@ -21,8 +21,8 @@
 
 ## <span style="font-style: italic; color: #00758f;">About the Project Details</span>
 
-- **Recommended using `Intellij IDEA (Ultimate / EAP), Aqua`**
-- **Currently Used `Aqua`**
+- **Recommended using** `Intellij IDEA (Ultimate / EAP), Aqua`
+- **Currently Used** `Aqua`
 - **MySQL Version** `8.0.40`
 
 ---
@@ -184,7 +184,7 @@
 
 ## <span style="color: #00758f;">Resources</span>
 
-### <span style="color: #00758f;">Learning</span>
+### <span style="color: #00758f;">Learn</span>
 
 - <span style="color: #00758f;">Note: </span><u style="text-decoration-color: #00758f;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><span style="color: #00758f;">.</span>
 
@@ -206,7 +206,7 @@
 <del><li><a style="color: #00758f;" href="https://goalkicker.com/MySQLBook">MySQL Notes for Professionals</a></li></del>
 </ul>
 
-### <span style="color: #00758f;">Solving</span>
+### <span style="color: #00758f;">Solve</span>
 
 #### Websites
 
