@@ -1,0 +1,3 @@
+SELECT *
+FROM users
+WHERE AGE REGEXP '^2[0-5]$';

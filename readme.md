@@ -32,6 +32,7 @@
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
     - Search `# >` for **<span style="color: #00758f;">Another Solution</span>**
+    - Search `# >x` for **<span style="color: #00758f;">Another Solution For The Old Version</span>**
     - Search `[//]: # (Notes)` for **<span style="color: #00758f;">Important Notes</span>**
 
 ---
@@ -145,16 +146,24 @@
 
 ### 23. [<span style="color: #00758f;">With</span>](src/_1_learn/_1_23_with)
 
+### 24. [<span style="color: #00758f;">Date Add</span>](src/_1_learn/_1_24_date_add)
+
+### 25. [<span style="color: #00758f;">Rank and Dense Rank and Over and Partition</span>](src/_1_learn/_1_25_rank_and_dense_rank_and_over_and_partition)
+
+### 26. [<span style="color: #00758f;">Limit</span>](src/_1_learn/_1_26_limit_and_union_and_union_all)
+
+### 27. [<span style="color: #00758f;">Group Contact and Separator</span>](src/_1_learn/_1_26_limit_and_union_and_union_all)
+
 ---
 
-## 2. <span style="color: #00758f;">Solve (20 Problems, 2 Mini Projects)</span>
+## 2. <span style="color: #00758f;">Solve (50 Problems, 2 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #00758f;">Solve problems and mini projects</u> <span style="color: #00758f;">.</span></li>
 
 |                                Name                                 | Problems / Mini Projects |
 |:-------------------------------------------------------------------:|:------------------------:|
 |    <a style="color: #00758f;" href="https://satr.codes">Satr</a>    |     2 Mini Projects      |
-| <a style="color: #00758f;" href="https://leetcode.com">LeetCode</a> |       20 Problems        |
+| <a style="color: #00758f;" href="https://leetcode.com">LeetCode</a> |       50 Problems        |
 
 #### <p style="color: #00758f;">Notes</p>
 
@@ -173,12 +182,12 @@
 1. <a style="color: #00758f;" href="https://satr.codes/course/DcFViVITbo/view">SQL 101</a> (1 Mini Project)
 2. <a style="color: #00758f;" href="https://satr.codes/course/oqTQleaQLV/view">SQL 102</a> (1 Mini Project)
 
-### <span>2. <a style="color: #00758f;" href="https://leetcode.com">LeetCode</a> (20 Problems, (17 Easy, 3 Medium, 0 Hard)) 🟥</span> (<a style="color: #00758f;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>2. <a style="color: #00758f;" href="https://leetcode.com">LeetCode</a> (50 Problems, (32 Easy, 17 Medium, 1 Hard)) 🟥</span> (<a style="color: #00758f;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #00758f;" href="https://leetcode.com/problemset">Problem Set</a> (20 Problems)
-    1. <a style="color: #00758f;" href="https://leetcode.com/problemset/database/?page=1&difficulty=EASY">Easy</a> (17 Problems)
-    2. <a style="color: #00758f;" href="https://leetcode.com/problemset/database/?page=1&difficulty=MEDIUM">Medium</a> (3 Problems)
-    3. <a style="color: #00758f;" href="https://leetcode.com/problemset/database/?page=1&difficulty=HARD">Hard</a> (0 Problems)
+1. <a style="color: #00758f;" href="https://leetcode.com/problemset">Problem Set</a> (50 Problems)
+    1. <a style="color: #00758f;" href="https://leetcode.com/problemset/database/?page=1&difficulty=EASY">Easy</a> (32 Problems)
+    2. <a style="color: #00758f;" href="https://leetcode.com/problemset/database/?page=1&difficulty=MEDIUM">Medium</a> (17 Problems)
+    3. <a style="color: #00758f;" href="https://leetcode.com/problemset/database/?page=1&difficulty=HARD">Hard</a> (1 Problem)
 
 ---
 
