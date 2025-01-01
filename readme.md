@@ -1,4 +1,4 @@
-# <u style="font-style: italic; color: #00758f;">Learn SQL and MySQL</u>
+# <u style="font-style: italic; color: #00758f;">Learn SQL</u>
 
 ---
 
