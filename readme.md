@@ -10,11 +10,11 @@
     <ul>
         <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Telegram Accounts</li>
         <ul>
-            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Private <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Private <a style="color: limeGreen;" href="https://t.me/M4MD24">@M4MD24</a></li>
             <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Nullexia For Programming <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li>
             <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Software Consulting <a style="color: limeGreen;" href="https://t.me/SoftwareConsulting">@SoftwareConsulting</a></li>
         </ul>
-        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> Github <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li>
+        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> Github <a style="color: limeGreen;" href="https://github.com/M4MD24">@M4MD24</a></li>
     </ul>
 
 ---
