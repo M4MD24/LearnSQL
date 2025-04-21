@@ -5,7 +5,7 @@
 ## <span style="font-style: italic; color: limeGreen;">About the Project Owner</span>
 
 - <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="N Letter" style="vertical-align: middle;"/>Name <u style="text-decoration-color: #32cd32;">Mohamed Sadawy Thabet</u> <span style="color: limeGreen;">(M4MD24)
-- <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/>Field <u style="text-decoration-color: #32cd32;">Software Engineer</u> / <u style="text-decoration-color: #32cd32;">Native Android Developer</u>
+- <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/>Field <u style="text-decoration-color: #32cd32;">Software Engineer</u> / <u style="text-decoration-color: #32cd32;">Android Apps Developer</u>
 - <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> Accounts
     <ul>
         <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Telegram Accounts</li>
